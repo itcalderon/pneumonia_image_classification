@@ -4,7 +4,7 @@
 ## Structure:
 - 01.Exploratory_Data_Analysis.ipynb
 - 02.Baseline_Initial_Models.ipynb
-- 03.Extra Models.ipynb -- (kaggle) BONUS!
+- 03.Extra Models.ipynb (BONUS/EXTRA)
 - 04.Final_Models_Analysis.ipynb
 
 ### About Dataset:
@@ -43,6 +43,8 @@ Our baseline model had a accuracy score of 0.625 and recall score of 1.0.
 Our best model had accuracy score of 0.8285 and recall score of 0.9872.
 
 ![final_model](./png/final_model_training_data.png)
+
+
 This is our graph of the model on training set and validation set to see how our model is performing. One of the way that we checked whether our model was overfitting or underfitting was by looking at our training loss and validation loss to check. We determined our final model to be this model specifically because even though we saw that it was not as overfitting as other models that we had. We were able to reduce overfitting by using data augmentation, l2 regularization (ridge), and balancing classes.
 
 
