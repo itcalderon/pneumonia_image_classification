@@ -1,4 +1,5 @@
 CellData
 .ipynb_checkpoints
+*.DS_Store
 *.zip
 Data
